@@ -1,8 +1,6 @@
 import numpy as np
-import time
 
 print("ПО для вычисления смешанного произведения векторов. (C) Andron Artemev 2023")
-time.sleep(0.5)
 
 def mixed_product(v1, v2, v3):
     return np.dot(v1, np.cross(v2, v3))
